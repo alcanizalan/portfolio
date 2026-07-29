@@ -1,0 +1,12 @@
+.infoSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 10px;
+
+    & .columna{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
