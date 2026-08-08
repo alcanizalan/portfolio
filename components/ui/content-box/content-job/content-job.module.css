@@ -1,6 +1,6 @@
 .containerTitle{
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 700;
     display: flex;
     justify-self: center;
     margin-bottom: 15px;
@@ -17,13 +17,12 @@
 
         & .workType{
             font-size: 18px;
-            font-weight: 400;
-            font-style: italic;
+            font-weight: 200;
         }
 
         & .workCompany{
             font-size: 18px;
-            font-weight: 700;
+            font-weight: 200;
         }
 
         & .workData{

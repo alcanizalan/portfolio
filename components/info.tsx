@@ -1,7 +1,6 @@
 import InfoBox from './ui/info-box'
 
 import ContentStack from './ui/content-box/content-stack/content-stack'
-import ContentProyects from './ui/content-box/content-proyects/content-proyects'
 import ContentJob from './ui/content-box/content-job/content-job'
 import ContentStudies from './ui/content-box/content-studies/content-studies'
 import ContentLanguaje from './ui/content-box/content-languajes/content-languajes'
@@ -16,7 +15,7 @@ export default function Info(){
                     <ContentStack />
                 </InfoBox>
                 <InfoBox>
-                    <ContentProyects />
+                    <ContentLanguaje />
                 </InfoBox>
                 
             </div>
@@ -26,9 +25,6 @@ export default function Info(){
                 </InfoBox>
                 <InfoBox>
                     <ContentStudies />
-                </InfoBox>
-                <InfoBox>
-                    <ContentLanguaje />
                 </InfoBox>
             </div>
         </section>

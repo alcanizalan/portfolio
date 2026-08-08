@@ -1,14 +1,72 @@
 .main{
     width: 100%;
     min-height: 100vh;
+    display: flex;
     background-color: var(--black);
     color: white;
-    padding: 20px 300px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr;
+    align-items: center;
+    flex-direction: column;
+    font-family: Inter, Arial, Helvetica, sans-serif;
 
-    & .aboutMe{
-        position: fixed;
+    h1{
+        display: none;
+    }
+
+    & .profileImage{
+        border-radius: 50%;
+        border: 1px solid var(--light-gray);
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
+
+    & .containerPresentation {
+        max-width: 500px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.7em;
+        border: 1px solid var(--light-gray);
+        border-radius: 30px;
+        padding: 20px;
+        background-color: var(--gray);
+
+        & .presentationText {
+            font-weight: 600;
+        }
+
+        & p{
+            margin-top: 10px;
+        }
+
+        & .highlight {
+            background-color: var(--blue);
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        & .midHighlight {
+            background-color: var(--light-blue);
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+    }
+
+    & .linksSeparator{
+        width: 50px;
+        height: 1px;
+        background-color: var(--light-gray);
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main{
+        & .containerPresentation {
+            width: 90%;
+            font-size: 1.2em;
+        }
     }
 }
