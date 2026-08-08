@@ -14,15 +14,15 @@ export default function ContentStack() {
                         <TecnologyBox logo="/logos/logoReact.png" name="React" />
                         <TecnologyBox logo="/logos/logoNext.png" name="Next.js" />
                         <TecnologyBox logo="/logos/logoTypescript.png" name="Typescript" />
-                        <TecnologyBox logo="/logoGit.png" name="Git" />
+                        <TecnologyBox logo="/logos/logoGit.png" name="Git" />
                     </div>
                 </div>
                 <div className={styles.containerPart}>
                     <h3>Anteriores</h3>
                     <div className={styles.containerLogo}>
                         <TecnologyBox logo="/logos/logoAngular.png" name="Angular" />
-                        <TecnologyBox logo="/logoJava.png" name="Java" />
-                        <TecnologyBox logo="/logoDocker.png" name="Docker" />
+                        <TecnologyBox logo="/logos/logoJava.png" name="Java" />
+                        <TecnologyBox logo="/logos/logoDocker.png" name="Docker" />
                     </div>
                 </div>
                 <div className={styles.containerPart}>

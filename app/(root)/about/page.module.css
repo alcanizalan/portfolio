@@ -3,11 +3,31 @@
     min-height: 100vh;
     background-color: var(--black);
     color: white;
+    display: flex;
+    justify-content: center;
 
-    & .containerPresentation {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 1fr;
-        padding: 20px 300px;
+    & .section{
+        max-width: 1200px;
+
+        & .containerPresentation {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr;
+            padding: 20px;
+        }
+    }
+
+    
+}
+
+@media (max-width: 1000px){
+    .main{
+        & .section {
+            & .containerPresentation {
+                display: flex;
+                flex-direction: column;
+                padding: 20px 10px;
+            }
+        }
     }
 }

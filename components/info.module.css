@@ -10,3 +10,11 @@
         gap: 8px;
     }
 }
+
+@media (max-width: 600px){
+    .infoSection{
+        grid-template-columns: 1fr;
+        padding-bottom: 80px;
+    }
+
+}

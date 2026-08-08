@@ -68,5 +68,9 @@
             width: 90%;
             font-size: 1.2em;
         }
+
+        & .profileImage{
+            margin-top: 20px;
+        }
     }
 }

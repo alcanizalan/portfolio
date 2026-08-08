@@ -9,10 +9,12 @@ import styles from "./page.module.css";
 export default function About() {
   return (
     <main className={styles.main}>
-      <div className={styles.containerPresentation}>
-        <AboutMe />
-        <Info />
-      </div>
+      <section className={styles.section}>
+        <div className={styles.containerPresentation}>
+          <AboutMe />
+          <Info />
+        </div>
+      </section>
       <NavBar />
     </main>
   );
