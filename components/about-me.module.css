@@ -4,6 +4,10 @@
     align-items: center;
     padding-bottom: 50px;
 
+    & h1{
+        display: none;
+    }
+
     & .imageContainer{
         height: fit-content;
         max-width: 800px;
@@ -90,6 +94,12 @@
             & .imageMark{
                 width: 30%;
                 padding: 10px;
+            }
+        }
+
+        .AboutMe{
+            .textoSobreMi{
+                padding: 0 10px;
             }
         }
     }

@@ -7,6 +7,7 @@ import Links from "./ui/links/links"
 export default function AboutMe(){
     return(
         <section className={styles.section}>
+            <h1>Alan Alcañiz Cerros</h1>
             <div className={styles.imageContainer}>
                 <div className={styles.imageMark}>
                     <Image className={styles.profilePicture} src="/fotoperfil.png" alt="Profile Picture" width={150} height={150} />
