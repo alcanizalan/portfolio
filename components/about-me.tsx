@@ -8,7 +8,7 @@ export default function AboutMe(){
         <section className={styles.section}>
             <div className={styles.imageContainer}>
                 <div className={styles.imageMark}>
-                    <Image className={styles.profilePicture} src="/fotoPerfil.png" alt="Profile Picture" width={150} height={150} />
+                    <Image className={styles.profilePicture} src="/fotoperfil.png" alt="Profile Picture" width={150} height={150} />
                     <div className={styles.photoTextContainer}>
                         <p>Alan Alcañiz Cerros - 20 años</p>
                         <p>Desarrollador Frontend Web</p>
