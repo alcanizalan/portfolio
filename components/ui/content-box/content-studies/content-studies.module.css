@@ -1,0 +1,37 @@
+.containerTitle{
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+.containerStudies{
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+
+    & .containerTitle{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+
+        & .studyLevel{
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        & .studyType{
+            font-weight: 700;
+
+        }
+
+        & .studyCentre{
+            color: gray;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+}

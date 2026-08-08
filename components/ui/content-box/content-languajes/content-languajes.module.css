@@ -1,0 +1,19 @@
+.containerTitle{
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+.containerLanguajes{
+    list-style:circle;
+    padding-left: 20px;
+
+    & li{
+
+        & span{
+            font-weight: 700;
+        }
+    }
+}

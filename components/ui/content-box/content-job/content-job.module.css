@@ -1,0 +1,35 @@
+.containerTitle{
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+.containerJobs{
+    display: flex;
+    flex-direction: column;
+
+    & .containerWork{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+        & .workType{
+            font-size: 18px;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        & .workCompany{
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        & .workData{
+            font-size: 15px;
+            font-weight: 400;
+            color: gray
+        }
+    }
+}

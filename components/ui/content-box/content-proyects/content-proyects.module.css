@@ -1,0 +1,42 @@
+.containerTitle{
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+.containerProyect{
+    background-color: rgb(60, 60, 60);
+    border: 1px solid #727272;
+    padding: 20px;
+    border-radius: 14px;
+    transition: transform .3s ease-in-out, margin .3s ease-in-out;
+
+    & .titleProyect{
+        font-size: 1.3em ;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    & .containerImage{
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+        border: 1px solid white;
+        border-radius: 8px;
+
+        & .imageProyect{
+            transition: transform .3s ease-in-out;
+        }
+    }
+
+    & p{
+        margin-top: 5px;
+        color: #c4c4c4;
+    }
+}
+
+& .containerProyect:hover .imageProyect{
+        transform: scale(1.05);
+    }
