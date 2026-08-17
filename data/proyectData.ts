@@ -14,7 +14,7 @@ export const proyectData: ProyectType[] = [
         id: 2,
         name: "Gesportín",
         description: "Gesportin es un sistema de gestión deportiva que permite administrar clubes, usuarios, equipos, partidos y más. Para facilitar la administración de todas las operaciones. ",
-        tags: [{name: "Angular", icon: "/logos/logoAngular.png"},{name: "Java", icon: "/logos/logoJava.png"},{name: "Docker", icon: "/logos/logoDocker.png"},{name: "MySql", icon: "/logos/logoMySql.png"},{name: "Co-Working", icon: "/icons/coworking_icon.svg"}],
+        tags: [{name: "Angular", icon: "/logos/logoAngular.png"},{name: "Java", icon: "/logos/logoJava.png"},{name: "Docker", icon: "/logos/logoDocker.png"},{name: "MySql", icon: "/logos/logoMysql.png"},{name: "Co-Working", icon: "/icons/coworking_icon.svg"}],
         //image: ["proyects/Gesportin/gesportin_screenshot_1.png"],
         image: "/proyects/Gesportin/gesportin_screenshot_1.png",
         link: "https://github.com/alcanizalan/final_gesportin"
