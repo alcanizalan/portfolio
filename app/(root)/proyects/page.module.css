@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    padding-bottom: 100px;
 
     & h1{
         display: none;
@@ -15,41 +16,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 0 10px;
-
-        & .containerProyect{
-            background-color: rgb(33, 33, 33);
-            border: 1px solid #424242;
-            padding: 20px;
-            border-radius: 14px;
-            transition: transform .2s ease-in-out, margin .2s ease-in-out;
-
-            & .titleProyect{
-                font-size: 1.3em ;
-                font-weight: 600;
-                margin-bottom: 5px;
-                color: white;
-            }
-
-            & .containerImage{
-                width: 90%;
-                height: fit-content;
-                justify-self: center;
-                overflow: hidden;
-                border: 1px solid white;
-                border-radius: 8px;
-                transition: transform .3s ease-in-out;
-                margin-bottom: 10px;
-            }
-
-            & p{
-                margin-top: 5px;
-                color: #c4c4c4;
-            }
-        }
-
-        & .containerProyect:hover .containerImage{
-            transform: scale(1.05);
-        }
+        gap: 10px;
     }
 }
 

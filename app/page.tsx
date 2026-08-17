@@ -1,9 +1,13 @@
+"use client"
+
 import NavBar from "@/components/ui/nav-bar/nav-bar";
 import Links from "@/components/ui/links/links";
 
 import styles from "./page.module.css";
 import Image from "next/image";
-import Link from "next/link";
+
+import { motion } from "motion/react"
+
 
 export default function Main(){
     return (
@@ -17,6 +21,9 @@ export default function Main(){
             </div>
             <div className={styles.linksSeparator}></div>
             <Links />
+            <motion.div className={styles.arrowIcon} animate={{y: [-10, 10]}} transition={{duration: .6, repeat: Infinity, repeatType: 'reverse'}}>
+                <Image src="/icons/arrow_icon.svg" width={50} height={50} alt="Flecha"/>
+            </motion.div>
             <NavBar />
         </main>
     )

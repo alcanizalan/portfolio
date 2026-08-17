@@ -21,7 +21,6 @@
             min-width: 300px;
             height: 100%;
             background-color: white;
-            transform: rotate(-5deg);
             display: flex;
             flex-direction: column;
             justify-content: center;

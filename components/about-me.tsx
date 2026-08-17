@@ -1,21 +1,24 @@
+"use client"
+
 import Image from "next/image"
-import Link from "next/link"
 
 import styles from "./about-me.module.css"
 import Links from "./ui/links/links"
+
+import {motion} from "motion/react"
 
 export default function AboutMe(){
     return(
         <section className={styles.section}>
             <h1>Alan Alcañiz Cerros</h1>
             <div className={styles.imageContainer}>
-                <div className={styles.imageMark}>
+                <motion.div className={styles.imageMark} initial={{rotate: -5}} whileHover={{scale: 1.1, rotate: -13}} transition={{duration: .3}}>
                     <Image className={styles.profilePicture} src="/fotoperfil.png" alt="Profile Picture" width={150} height={150} />
                     <div className={styles.photoTextContainer}>
                         <p>Alan Alcañiz Cerros - 20 años</p>
                         <p>Desarrollador Frontend Web</p>
                     </div>
-                </div>
+                </motion.div>
             </div>
             <div className={styles.textAboutMe}>
                 <h2 className={styles.title}>Sobre mí</h2>

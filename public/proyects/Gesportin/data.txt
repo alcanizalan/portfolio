@@ -1,0 +1,1 @@
+Gesportin es un sistema integral de gestión deportiva que permite administrar clubes, usuarios, equipos, partidos, noticias, artículos y más. Diseñado para facilitar la administración de todas las operaciones de un club deportivo. 
