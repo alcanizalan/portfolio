@@ -3,7 +3,7 @@ import { ProyectType } from "@/types/proyectsType"
 export const proyectData: ProyectType[] = [
     {
         id: 1,
-        name: "MilfShakes Clicker",
+        name: "MilfShakes Clicker [BETA]",
         description: "Una juego no oficial basada en la marca MilfShakes al estilo de el famoso Cookie Clicker",
         tags: [{name: "React", icon: "/logos/logoReact.png"},{name: "NextJS", icon: "/logos/logoNext.png"},{name: "TypeScript", icon: "/logos/logoTypescript.png"},{name: "Zustand", icon: "/logos/logoZustand.png"},{name: "Motion", icon: "/logos/logoMotion.png"},{name: "Vercel", icon: "/logos/logoVercel.png"}],
         //image: ["/proyects/MilfClicks/milfclicks_screenshot_1.png"],
@@ -12,6 +12,15 @@ export const proyectData: ProyectType[] = [
     },
     {
         id: 2,
+        name: "AlnGames [En Proceso]",
+        description: "AlnGames es un proyecto web de juegos en linea donde juegar con amigos basados en la estética de la Wii",
+        tags: [{name: "React", icon: "/logos/logoReact.png"},{name: "NextJS", icon: "/logos/logoNext.png"},{name: "TypeScript", icon: "/logos/logoTypescript.png"},{name: "Motion", icon: "/logos/logoMotion.png"},{name: "Vercel", icon: "/logos/logoVercel.png"}],
+        //image: ["/proyects/MilfClicks/milfclicks_screenshot_1.png"],
+        image: "/proyects/WiiGames/WiiGames_screanshot_1.png",
+        link: "https://github.com/alcanizalan/wiigames"
+    },
+    {
+        id: 3,
         name: "Gesportín",
         description: "Gesportin es un sistema de gestión deportiva que permite administrar clubes, usuarios, equipos, partidos y más. Para facilitar la administración de todas las operaciones. ",
         tags: [{name: "Angular", icon: "/logos/logoAngular.png"},{name: "Java", icon: "/logos/logoJava.png"},{name: "Docker", icon: "/logos/logoDocker.png"},{name: "MySql", icon: "/logos/logoMysql.png"},{name: "Co-Working", icon: "/icons/coworking_icon.svg"}],
@@ -20,7 +29,7 @@ export const proyectData: ProyectType[] = [
         link: "https://github.com/alcanizalan/final_gesportin"
     },
     {
-        id: 3,
+        id: 4,
         name: "Tienda Ropa React + NextJS + Prisma",
         description: "Este es un proyecto de tienda de ropa hecho para un trabajo de clase, tanto frontend como backend",
         tags: [{name: "React", icon: "/logos/logoReact.png"},{name: "NextJS", icon: "/logos/logoNext.png"},{name: "TypeScript", icon: "/logos/logoTypescript.png"},{name: "Prisma", icon: "/logos/logoPrisma.png"},{name: "BetterAuth", icon: "/logos/logoBetterAuth.png"},{name: "Zod", icon: "/logos/logoZod.png"},{name: "Shadcn", icon: "/logos/logoShadcn.png"},{name: "Tweekcn", icon: "/logos/logoTweekcn.png"}],
@@ -29,7 +38,7 @@ export const proyectData: ProyectType[] = [
         link: "https://github.com/alcanizalan/tiendaRopaNextClase"
     },
     {
-        id: 4,
+        id: 5,
         name: "Persutil",
         description: "Persutil es una web con diferenes funciones, hecha para un trabajo de clase en equipos, mi parte era un juego de sobre preguntas de javascript",
         tags: [{name: "Angular", icon: "/logos/logoAngular.png"},{name: "Java", icon: "/logos/logoJava.png"},{name: "Docker", icon: "/logos/logoDocker.png"},{name: "MySql", icon: "/logos/logoMysql.png"},{name: "Co-Working", icon: "/icons/coworking_icon.svg"}],
