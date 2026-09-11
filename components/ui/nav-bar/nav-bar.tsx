@@ -13,7 +13,6 @@ export default function NavBar() {
                             <Image src="/logos/home_logo.svg" width={80} height={80} alt="" />
                         </div>
                     </Link>
-                    <div className={styles.hoverBar}></div>
                 </div>
                 <div className={styles.containerLink}>
                     <Link href="/proyects">
@@ -21,7 +20,6 @@ export default function NavBar() {
                             <Image src="/logos/folder_logo.svg" width={80} height={80} alt="" />
                         </div>
                     </Link>
-                    <div className={styles.hoverBar}></div>
                 </div>
                 <div className={styles.containerLink}>
                     <Link href="/about">
@@ -29,7 +27,6 @@ export default function NavBar() {
                             <Image src="/logos/user_logo.svg" width={80} height={80} alt="" />
                         </div>
                     </Link>
-                    <div className={styles.hoverBar}></div>
                 </div>
             </div>
         </section>

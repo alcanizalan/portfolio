@@ -45,5 +45,12 @@ export const proyectData: ProyectType[] = [
         //image: ["proyects/Persutil/persutil_screenshot_1.png"],
         image: "/proyects/Persutil/persutil_screenshot_1.png",
         link: "https://github.com/alcanizalan/proyecto_persutil"
+    },{
+        id: 6,
+        name: "Mi Portfolio",
+        description: "Mi portfolio personal donde muestro mis proyectos y habilidades.",
+        tags: [{name: "React", icon: "/logos/logoReact.png"},{name: "NextJS", icon: "/logos/logoNext.png"},{name: "TypeScript", icon: "/logos/logoTypescript.png"},{name: "Motion", icon: "/logos/logoMotion.png"}],
+        image: "/proyects/Portfolio/portfolio_screenshot.png",
+        link: "https://alcanizalan.me"
     }
 ]

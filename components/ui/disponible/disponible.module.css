@@ -1,0 +1,19 @@
+.disponible {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    span {
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(15, 222, 15);
+    }
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(15, 222, 15);
+    box-shadow: 0 0 10px rgb(15, 222, 15);
+}

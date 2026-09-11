@@ -7,13 +7,16 @@
 }
 
 .containerLanguajes{
-    list-style:circle;
-    padding-left: 20px;
+    list-style: circle;
 
     & li{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
         & span{
             font-weight: 700;
+            margin: 0 5px;
         }
     }
 }
