@@ -5,6 +5,7 @@ import ContentStack from './ui/content-box/content-stack/content-stack'
 import ContentJob from './ui/content-box/content-job/content-job'
 import ContentStudies from './ui/content-box/content-studies/content-studies'
 import ContentLanguaje from './ui/content-box/content-languajes/content-languajes'
+import ContentHabilities from './ui/content-box/content-habilities/content-habilities'
 
 import styles from './info.module.css'
 
@@ -18,12 +19,14 @@ export default function Info(){
                 <InfoBox>
                     <ContentLanguaje />
                 </InfoBox>
+                {/*}
+                <InfoBox>
+                    <ContentHabilities />
+                </InfoBox>
+                */}
                 <InfoBox>
                     <ContentContact />
                 </InfoBox>
-                
-            </div>
-            <div className={styles.columna}>
                 <InfoBox>
                     <ContentJob />
                 </InfoBox>

@@ -3,13 +3,13 @@
     font-weight: 700;
     display: flex;
     justify-self: center;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 .containerStudies{
     display: flex;
     flex-direction: column;
-    gap: 10;
+    gap: 5px;
 
     & .containerTitle{
         display: flex;
@@ -17,12 +17,8 @@
         font-size: 18px;
         font-weight: 400;
 
-        & .studyLevel{
-            font-weight: 200;
-        }
-
         & .studyType{
-            font-weight: 200;
+            font-weight: 2200;
 
         }
 

@@ -15,20 +15,39 @@
         flex-direction: column;
         margin-bottom: 20px;
 
-        & .workType{
-            font-size: 18px;
-            font-weight: 200;
+        & .containerWorkDetails{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            & .workType{
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            & .workData{
+                font-size: 16px;
+                font-weight: 400;
+                color: gray
+            }
         }
 
         & .workCompany{
             font-size: 18px;
-            font-weight: 200;
-        }
-
-        & .workData{
-            font-size: 15px;
             font-weight: 400;
-            color: gray
+            color: rgb(177, 177, 177);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .containerJobs {
+        & .containerWork {
+            & .containerWorkDetails {
+                flex-direction: column-reverse;
+                align-items: flex-start;
+            }
         }
     }
 }

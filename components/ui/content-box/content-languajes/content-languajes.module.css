@@ -8,6 +8,7 @@
 
 .containerLanguajes{
     list-style: circle;
+    font-size: 18px;
 
     & li{
         display: flex;

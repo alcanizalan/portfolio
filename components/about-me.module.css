@@ -3,6 +3,10 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+
 
     & h1{
         display: none;
@@ -10,7 +14,7 @@
 
     & .imageContainer{
         height: fit-content;
-        max-width: 800px;
+        max-width: 100%;
         min-width: 300px;
         display: flex;
         justify-content: center;

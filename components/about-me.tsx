@@ -13,7 +13,7 @@ export default function AboutMe(){
         <section className={styles.section}>
             <h1>Alan Alcañiz Cerros</h1>
             <div className={styles.imageContainer}>
-                <BlobMorph width={400} height={400} marginTop={0} />              
+                <BlobMorph width={600} height={600} marginTop={0} />              
             </div>
             <div className={styles.textAboutMe}>
                 <h2 className={styles.title}>Sobre mí</h2>

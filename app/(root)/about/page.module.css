@@ -1,6 +1,7 @@
 .main{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
     background-color: var(--black);
     color: white;
     display: flex;
@@ -8,13 +9,18 @@
 
     & .section{
         max-width: 1200px;
+        height: 100%;
 
         & .containerPresentation {
             display: grid;
-            grid-template-columns: 1fr 2fr;
+            grid-template-columns: 1fr 1.5fr;
             grid-template-rows: 1fr;
-            padding: 20px;
-            gap: 10px;
+            height: 100%;
+            gap: 20px;
+
+            & > * {
+                min-height: 0;
+            }
         }
     }
 
@@ -23,10 +29,17 @@
 
 @media (max-width: 1000px){
     .main{
+        height: auto;
+        min-height: 100vh;
+        overflow: visible;
+
         & .section {
+            height: auto;
+
             & .containerPresentation {
                 display: flex;
                 flex-direction: column;
+                height: auto;
                 padding: 20px 10px;
             }
         }
