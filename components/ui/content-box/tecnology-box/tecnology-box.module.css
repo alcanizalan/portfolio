@@ -10,11 +10,9 @@
 
     .etiquetaTecnologia{
         position: absolute;
-        background-color: rgb(47, 47, 47);
+        background-color: var(--light-gray);
         padding: 4px 10px;
-        border-radius: 8px;
         z-index: 10;
-        border: 1px solid white;
         top: -40px;
         width: fit-content;
     }

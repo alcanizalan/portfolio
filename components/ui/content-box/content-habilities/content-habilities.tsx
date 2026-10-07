@@ -1,6 +1,6 @@
 "use client"
 
-import { habilitiesData, secundaryHabilitiesData } from "@/data/habilitiesData"
+import { habilitiesData } from "@/data/habilitiesData"
 import { useState } from "react"
 import styles from './content-habilities.module.css'
 
@@ -24,7 +24,8 @@ export default function ContentHabilities(){
                         </div>
                     </div>
                 ))}
-                {showAll && (
+                
+                {/*showAll && (
                         <div>
                             <div className={styles.separationLine}></div>
                             {secundaryHabilitiesData.map((hability) => (
@@ -42,7 +43,7 @@ export default function ContentHabilities(){
                             ))}
                         </div>
                     )
-                }   
+                */}   
                 <button onClick={() => setShowAll(!showAll)} className={styles.showAllButton}>{showAll ? "Show Less" : "Load More"}</button>
             </div>
         </div>

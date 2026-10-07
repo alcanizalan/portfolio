@@ -24,7 +24,7 @@ export default function NavBar() {
                 <div className={styles.containerLink}>
                     <Link href="/about">
                         <div className={styles.containerImage}>
-                            <Image src="/logos/user_logo.svg" width={80} height={80} alt="" />
+                            <Image src="/logos/user_logo.svg" width={100} height={100} alt="" />
                         </div>
                     </Link>
                 </div>

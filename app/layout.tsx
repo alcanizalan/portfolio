@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Inter } from 'next/font/google';
+import { Inter, Geist_Mono } from 'next/font/google';
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,6 +15,11 @@ const inter = Inter({
   display: 'swap',
 });
 
+const geistMono = Geist_Mono({
+  subsets: ['latin'],
+  display: 'swap',
+}); 
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -22,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${geistMono.className}`}>{children}</body>
     </html>
   );
 }

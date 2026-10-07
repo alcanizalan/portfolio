@@ -1,57 +1,62 @@
 .main{
     width: 100%;
     min-height: 100vh;
-    display: flex;
     background-color: var(--black);
     color: white;
-    align-items: center;
     flex-direction: column;
     font-family: Inter, Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
 
     h1{
         display: none;
     }
 
-    & .profileImage{
-        border-radius: 50%;
-        margin-top: 100px;
-        margin-bottom: 20px;
-        border: 5px solid var(--gray);
-        outline: 1px solid var(--light-gray);
+    & .sectionPhoto {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
-    & .containerPresentation {
-        max-width: 500px;
-        height: fit-content;
+    & .sectionInfo {
         display: flex;
-        flex-direction: column;
-        font-size: 1.7em;
-        border-radius: 30px;
-        padding: 20px;
-        background-color: var(--gray);
-        gap: 3px;
+        font-size: 3.5em;
 
-        & .presentationText {
-            font-weight: 600;
+        & .containerPresentation {
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            border-radius: 30px;
+            padding: 20px;
+            gap: 3px;
+
+            & .presentationText {
+                font-weight: 600;
+            }
+
+            & p{
+                margin-top: 10px;
+                line-height: 1.4;
+                letter-spacing: -0.05em;
+            }
+
+            & .highlight {
+                background-color: var(--blue);
+                padding: 3px 10px;
+                font-weight: 600;
+            }
+
+            & .midHighlight {
+                background-color: var(--light-blue);
+                padding: 3px 10px;
+                font-weight: 600;
+            }
         }
 
-        & p{
-            margin-top: 10px;
-            line-height: 1.6;
-        }
-
-        & .highlight {
-            background-color: var(--blue);
-            padding: 3px 10px;
-            border-radius: 10px;
-            font-weight: 600;
-        }
-
-        & .midHighlight {
-            background-color: var(--light-blue);
-            padding: 3px 10px;
-            border-radius: 10px;
-            font-weight: 600;
+        & .disponibleContainer{
+            font-size: .5em;
         }
     }
 
@@ -71,14 +76,23 @@
 @media (max-width: 600px) {
     .main{
         padding: 0 10px;
+        grid-template-columns: 1fr;
+        padding-bottom: 70px;
 
-        & .containerPresentation {
-            width: 100%;
-            font-size: 1.2em;
+         & .sectionInfo {
+            display: flex;
+            margin-top: 30px;
+
+            & .containerPresentation {
+                width: 100%;
+                gap: 30px;
+                font-size: .7em
+            }
         }
 
         & .profileImage{
             margin-top: 50px;
         }
+
     }
 }

@@ -3,16 +3,16 @@
     flex-direction: row;
     gap: 10;
     align-items: center;
-    margin-top: 10px;
 
     & .buttonDownload{
         display: flex;
         flex-direction: row;
         background-color: var(--blue);
+        font-family: var(--geist-mono);
+        font-style: italic;
         padding: 8px 16px;
         align-items: center;
         gap: 8px;
-        border-radius: 15px;
         font-weight: 700;
 
     }

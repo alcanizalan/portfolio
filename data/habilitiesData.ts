@@ -3,6 +3,25 @@ import { Hability } from "../types/habilityType";
 
 export const habilitiesData: Hability[] = [
     {
+        name: "Español",
+        level: 100,
+        category: "Nativo"
+    },
+    {
+        name: "Valenciano",
+        level: 100,
+        category: "Nativo"
+    },
+    {
+        name: "Inglés",
+        level: 80,
+        category: "C1"
+    },
+]
+
+/*
+export const habilitiesData: Hability[] = [
+    {
         name: "Desarrollo Frontend",
         level: 50,
         category: "Junior"
@@ -62,3 +81,4 @@ export const secundaryHabilitiesData: Hability[] = [
     }
 
 ]
+*/

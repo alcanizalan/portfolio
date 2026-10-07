@@ -6,14 +6,13 @@ import styles from "./about-me.module.css"
 import Links from "./ui/links/links"
 
 import {motion} from "motion/react"
-import BlobMorph from "./svg/svg"
 
 export default function AboutMe(){
     return(
         <section className={styles.section}>
             <h1>Alan Alcañiz Cerros</h1>
             <div className={styles.imageContainer}>
-                <BlobMorph width={600} height={600} marginTop={0} />              
+                <Image width={400} height={400} src="/fotoperfil.png" alt={""} />              
             </div>
             <div className={styles.textAboutMe}>
                 <h2 className={styles.title}>Sobre mí</h2>
