@@ -18,6 +18,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        padding: 0 10px;
     }
 
     & .sectionInfo {
@@ -73,9 +74,30 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     .main{
-        padding: 0 10px;
+
+         & .sectionInfo {
+            display: flex;
+            margin-top: 30px;
+            padding: 0 10px;
+
+            & .containerPresentation {
+                width: 100%;
+                gap: 30px;
+                font-size: .8em
+            }
+        }
+
+        & .profileImage{
+            margin-top: 50px;
+        }
+
+    }
+}
+
+@media (max-width: 750px) {
+    .main{
         grid-template-columns: 1fr;
         padding-bottom: 70px;
 
@@ -88,6 +110,11 @@
                 gap: 30px;
                 font-size: .7em
             }
+        }
+
+        & .sectionPhoto{
+            max-width: 400px;
+            margin: 10px auto 0 auto;
         }
 
         & .profileImage{
